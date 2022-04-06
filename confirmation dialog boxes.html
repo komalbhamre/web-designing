@@ -1,0 +1,27 @@
+<html>
+<head>
+<script type="javascript">
+function getconfirmation()
+{
+	var retVal=confirm("Do you want to continue?")
+		if(retVal==true)
+		{
+			document.write("User want to continue!")
+			return true;
+		}
+		else
+		{
+			document.write("User do not want to continue!")
+			return false;
+		}
+}
+</script>
+</head>
+<body>
+<p>
+click the following button to see the result</p>
+<form>
+<input type="button" value="click me" onclick="getconfirmation()">
+</form>
+</body>
+</html>
