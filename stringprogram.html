@@ -1,0 +1,156 @@
+<html>
+<head>
+<script type="javascript">
+function charat()
+{
+	str="hello"
+	alert("The charat() returns the character of given index"+"\n"+"character at index 3 in hello is="+str.charAt(3));
+}
+functionconcat()
+{
+	str="hello"
+	str2="imrd"
+	alert("It combine two string"+"\n"+"first string :hello"+"/n"+"second string:imrd"+"\n="+str.concat(str2));
+}
+function indexof()
+{
+	str="hello"
+	alert("the indexof() return index \n index of e in hello is"+str.indexof("e"));
+}
+function lastindexof()
+{
+	str="hello"
+	alert("the lastindexof() return the index from right side\nindex of l in hello is="+str.lastindexof("l"));
+}
+function search()
+{
+	str="hello"
+	alert("it search character in given string and return index\nstring is hello\nif we enter h,it returns="+str.search("h"));
+}
+function replace()
+{
+	str="hello"
+	alert("string is hello\nhel replace with hi="+str.replace("hel","hi"));
+}
+function substr()
+{
+	str="hello"
+	aler5t("string helo\nif we enter (0,3)it returns="+str.substr(0,3));
+}
+function slice()
+{
+	str="hello"
+	alert("string is hello\nif we enter (0,4),it returns="+str.slice(0,4));
+}
+function touppercase()
+{
+	str="hello"
+	alert("string is hello\n in upper case="+str.touppercase());
+}
+function trim()
+{
+	str="hello"
+	alert("string is hello \nstring after trim="+str.trim());
+}
+</script>
+</head>
+<body bgcolor="pink">
+<table bgcolor="lightgreen" border="5" align="center">
+<form>
+<h1 align="center">string function</h1><tr>
+<th>function</th>
+<th>use></th>
+</tr>
+<tr>
+<th>
+<input type="button" value="charAt" onclick="charat()">
+</th>
+	<th>
+	It provid the char value present at the specified index.
+	</th>
+</tr>
+<tr>
+<th>
+<input type="button" value="concat" onclick="concat()">
+</th>
+	<th>
+	It concat two or more string.
+	</th>
+</tr>
+<tr>
+<th>
+<input type="button" value="indexof" onclick="indexof()">
+</th>
+	<th>
+	It display index of given number.
+	</th>
+</tr>
+<tr>
+<th>
+<input type="button" value="lastindexof" onclick="lastindexof()">
+</th>
+	<th>
+	It dispaly index of given charcat from last position.
+	</th>
+</tr>
+<tr>
+<th>
+<input type="button" value="search" onclick="search()">
+</th>
+	<th>
+	It  search a specified regulat expression in a given string.
+	</th>
+</tr>
+<tr>
+<th>
+<input type="button" value="replace" onclick="replace()">
+</th>
+	<th>
+	It replaces a given string with the specified relpacement.
+	</th>
+</tr>
+<tr>
+<th>
+<input type="button" value="substr" onclick="substr()">
+</th>
+	<th>
+	It is used to fetch the part of given string.
+	</th>
+</tr>
+<tr>
+<th>
+<input type="button" value="slice" onclick="slice()">
+</th>
+	<th>
+	It is same as substr().t allows us to assign positive as well as negative index.
+	</th>
+</tr>
+<tr>
+<th>
+<input type="button" value="tolowercase" onclick="tolowercase()">
+</th>
+	<th>
+	It convert the given srting into lower case.
+	</th>
+</tr>
+<tr>
+<th>
+<input type="button" value="touppercase" onclick="touppercase()">
+</th>
+	<th>
+	It convert the given string into upper case.
+	</th>
+</tr>
+<tr>
+<th>
+<input type="button" value="trim" onclick="trim()">
+</th>
+	<th>
+	It trims the white space from left to right of the string.
+	</th>
+</tr>
+</form>
+</table>
+<body>
+</html>
+
